@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="marcelo_site_style.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+        <div class="logo">
+           <a href="#">Marcelo</a>
+        </div>
+        <nav id="nav" class="responsive">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INÍCIO</a></li>
+                <li><a href="#sobremim" onclick="seleccionar()">SOBRE MIM</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRÍCULO</a></li>
+                <li><a href="#portfolio" onclick="seleccionar()">PORTFÓLIO</a></li>
+             
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        </header>
+    </div>
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="../marcelo-site/imagens/marcelo_foto.png" alt="">
+                </div>
+                <h1>MARCELO GOMES</h1>
+                <h2>Editor de vídeo - Desenvolvedor Web</h2>
+                <div class="redes">
+                <a href="https://www.facebook.com/marcelo.g.costa.5/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/marcelogomesdc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://vimeo.com/user104339207" target="_blank"><i class="fa-brands fa-vimeo-v"></i></a>
+                <a href="https://www.linkedin.com/in/marcelo-gomes-da-costa-85b387237/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--SEÇÃO SOBRE MIM-->
+        <section id="sobremim" class="sobremim">
+            <div class="contenido-seccion">
+                <h2>Sobre Mim</h2>
+                <p><span>Olá, sou Marcelo Gomes</span> e sou apaixonado pela criação de vídeos e desenvolvimento web. Nasci e cresci em Fortaleza-Ce. Sempre me interessei pela edição de materiais e a internet e isso me levou a buscar conhecimento e experiência nos campos de audiovisual e tecnologia.
+
+                    Ao longo da minha carreira, trabalhei em diversos projetos e colaborei com profissionais talentosos, o que me permitiu desenvolver habilidades e conhecimentos valiosos. Meu objetivo é ajudar outras pessoas e empresas a alcançar seus objetivos e realizar seus sonhos, oferecendo soluções eficientes e inovadoras.
+                    
+                    Este site foi criado para compartilhar meu portfólio, ideias e informações relacionadas à minha área de atuação. Além disso, é uma plataforma onde posso conectar-me com pessoas que compartilham dos mesmos interesses e paixões. Acredito que o trabalho em equipe e a colaboração são cruciais para o sucesso, e estou sempre disposto a aprender com os outros e a compartilhar meus conhecimentos.
+                    
+                    Se você estiver interessado em saber mais sobre mim, discutir possíveis colaborações ou simplesmente trocar ideias, por favor, não hesite em entrar em contato através dos links que se encontram nesta página. Estou ansioso para conhecer pessoas incríveis e trabalhar em projetos inspiradores!
+                    
+                    Obrigado por visitar meu site e espero que você encontre o que está procurando.
+                </p>
+                <div class="fila">
+                    <!--DADOS PESSOAIS-->
+                    <div class="col">
+                        <h3>Dados Pessoais</h3>
+                        <ul>
+                            <li>
+                                <strong>Data de nascimento</strong>
+                                08/01/1991
+                            </li>
+                            <li>
+                                <strong>Telefone</strong>
+                                (85) 9.8724-3303
+                            </li>
+                            <li>
+                                <strong>E-mail</strong>
+                                adsmarcelogomes@gmail.com
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>FREELANCER</span>
+                            </li>
+                        
+                        </ul>
+                    </div>
+                    <!--INTERESSES-->
+                    <div class="col">
+                        <h3>Interesses</h3>
+                        <div class ="contenedor-intereses">
+                            <div class="interesses">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JOGOS</span>
+                            </div>
+                        
+                        
+                            <div class="interesses">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MÚSICAS</span>
+                            </div>
+                        
+                    
+                            <div class="interesses">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJAR</span>
+                            </div>
+                        
+                        
+                            <div class="interesses">
+                                <i class="fa-brands fa-apple"></i>
+                                <span>MAC OS</span>
+                            </div>
+
+                            <div class="interesses">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LIVROS</span>
+                            </div>
+
+                            <div class="interesses">
+                                <i class="fa-solid fa-car"></i>
+                                <span>CARROS</span>
+                            </div>
+
+                            <div class="interesses">
+                                <i class="fa-solid fa-video"></i>
+                                <span>VÍDEO</span>
+                            </div>
+
+                            <div class="interesses">
+                                <i class="fa-sharp fa-solid fa-code"></i>
+                                <span>DEV</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <button class="download-button">
+                    <a class="text-none" href="https://drive.google.com/file/d/1ScmF1zkk9GUl9tYqUMzGc2D0vg0zYmb9/view?usp=sharing" target="_blank">
+                        Baixar CV <i class="fa-solid fa-download"></i>
+                    </a>
+                    <span class="overlay"></span>
+                </button>
+                
+            </div>
+        </section>
+
+        <!--SEÇÃO SKILLS-->
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Hard Skills-->
+                <div class="col">
+                   <h3>Hard Skills</h3> 
+                   <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                   </div>
+
+                   <div class="skill">
+                    <span>Java</span>
+                    <div class="barra-skill">
+                        <div class="progreso java">
+                            <span>30%</span>
+                        </div>
+                    </div>
+                </div>
+                   
+                   <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlecss">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>My SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso mysql">
+                                <span>48%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso bootstrap">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="skill">
+                        <span>Adobe Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Adobe Premiere</span>
+                        <div class="barra-skill">
+                            <div class="progreso premiere">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <span>Final Cut</span>
+                        <div class="barra-skill">
+                            <div class="progreso finalcut">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <span>Adobe After Effects</span>
+                        <div class="barra-skill">
+                            <div class="progreso aftereffects">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                 <!--Soft Skills-->               
+                <div class="col">
+                    <h3>Soft Skills</h3> 
+                    <div class="skill">
+                         <span>Comunicação</span>
+                         <div class="barra-skill">
+                             <div class="progreso comunicacao">
+                                 <span>94%</span>
+                             </div>
+                         </div>
+                    </div>
+ 
+                    <div class="skill">
+                     <span>Trabalho em Equipe</span>
+                     <div class="barra-skill">
+                         <div class="progreso trabalhoemequipe">
+                             <span>79%</span>
+                         </div>
+                     </div>
+                 </div>
+                    
+                    <div class="skill">
+                         <span>Criatividade</span>
+                         <div class="barra-skill">
+                             <div class="progreso criatividade">
+                                 <span>96%</span>
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div class="skill">
+                         <span>Dedicação</span>
+                         <div class="barra-skill">
+                             <div class="progreso dedicacao">
+                                 <span>100%</span>
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div class="skill">
+                         <span>Administração de Projetos</span>
+                         <div class="barra-skill">
+                             <div class="progreso administracaodeprojetos">
+                                 <span>90%</span>
+                             </div>
+                         </div>
+                     </div>
+ 
+ 
+                 </div>
+                
+
+
+            </div>
+            </div>
+        </section>
+
+        <!--SEÇÃO CURRICULUM-->
+        <section id="curriculum" class="curriculum">
+            <div class="contenido-seccion">
+                <h2>Currículo</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educação</h3>
+                        <div class="item izq">
+                            <h4>Análise e Desenvolimento de Sistemas</h4>
+                            <span class="casa">Universidade de Fortaleza</span>
+                            <span class="fecha">2021 - 2023</span>
+                            <p> Sou estudante universitário, entrando no quarto semestre de Análise e
+                                Desenvolvimento de Sistemas, com previsão de concluir o curso em 2023.2. Minha constante
+                                busca por conhecimento foi reconhecida e eu ganhei uma bolsa de estudos por mérito
+                                acadêmico do Programa Bolsa Santander Graduação 2022.</p>
+                                <div class="conectori">
+                                    <div class="circuloi"></div>
+                                </div>
+
+                        </div>
+
+                        <div class="item izq">
+                            <h4>SQL do Básico ao Avançado</h4>
+                            <span class="casa">Udemy</span>
+                            <span class="fecha">2022</span>
+                            <p> Curso feito pela Udemy com o objetivo de aprender alguns conceitos, como: Gerenciamento de tabelas,
+                            operações do CRUD com SQL (Create, Read, Update e Delete) entre outros. (Carga horária 17h)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="item izq">
+                            <h4>Desenvolvimento de Interfaces Web com Javascript.</h4>
+                            <span class="casa">Universidade do Trabalho Digital (UTD)</span>
+                            <span class="fecha">2022</span>
+                            <p> Curso com objetivo de aprender a produzir páginas web, utilizando HTML, CSS e Javascript e
+                            dominar ferramentos do mercado de programação web, como NodeJs e ReactJs. (Carga horária: 120h)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+
+
+                        </div>
+
+                        
+                        <div class="item izq">
+                            <h4>Cybercrimes - Crimes cibernéticos</h4>
+                            <span class="casa">Universidade de Fortaleza</span>
+                            <span class="fecha">2021</span>
+                            <p> Curso de curta duração pontuando as principais práticas de crimes cibernéticos. (Carga horária: 1h)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="item izq">
+                            <h4>LGPD Intermediário - Lei de Proteção de Dados</h4>
+                            <span class="casa">Universidade de Fortaleza</span>
+                            <span class="fecha">2022</span>
+                            <p> Curso de curta duração acerca da legislação envolvendo a proteção dados. (Carga horária: 6h)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+
+
+                        </div>
+                        
+                        <div class="item izq">
+                            <h4>Tecnologia da Informação e Comunicação</h4>
+                            <span class="casa">SENAI - CE</span>
+                            <span class="fecha">2021</span>
+                            <p> Curso para compreender os processos da Tecnologia da Informação e Comunicação utilizados em um ambiente empresarial e industrial. O curso tem como objetivo apresentar os principais temas relacionados à infraestrutura de TI, serviços de redes, software, hardware, normas e padrões técnicos. (Carga horária: 14h)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="item izq">
+                            <h4>HTML Básico</h4>
+                            <span class="casa">Fundação Bradesco</span>
+                            <span class="fecha">2021</span>
+                            <p> Curso de criação de páginas Web, por meio do Hyper Text Markup Language – mais conhecido como HTML. (Carga horária: 11h)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="item izq">
+                            <h4>HTML e CSS na Prática</h4>
+                            <span class="casa">Fundação Bradesco</span>
+                            <span class="fecha">2021</span>
+                            <p> Curso com o objetivo de aprender tudo o que é necessário para produzir um website utilizando as linguagens HTML5 e CSS. Por meio das várias demonstrações disponibilizadas, tive a oportunidade de ver como codificar um website com layout moderno, agradável e tecnologia responsiva. (Carga horária: 24h)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="item izq">
+                            <h4>Java 2022 Completo: Do zero ao profissional</h4>
+                            <span class="casa">Udemy</span>
+                            <span class="fecha">Cursando</span>
+                            <p> Estou aprendendo os fundamentos de Java, Orientação a Objeto, Programação Funcional, MySQL, MongoDB, Spring Boot, JavaFX, JPA, Hibernate e mais. (Carga horária: 77h)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="item izq">
+                            <h4>Animação Rápida para Redes Sociais com After Effects</h4>
+                            <span class="casa">Domestika Inc., DOMESTIKA, Estados Unidos</span>
+                            <span class="fecha">2021</span>
+                            <p> Curso de curta duração com o objetivo de aprender a criar animações práticas e bonitas para redes sociais. (Carga horária: 3h)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="item izq">
+                            <h4>Formação Profissional de Radialista para Funções de nível Médio.</h4>
+                            <span class="casa">Sindicato dos Radialistas e Publicitários do Ceará, SINDRADIOCE</span>
+                            <span class="fecha">2011</span>
+                            <p> Curso de habilitação para trabalhar em rádio e Tv. (Carga horária: 240h)</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col derecha">
+                        <h3>Experiência de Trabalho</h3>
+                        <div class="item der">
+                            <h4>Sistema Verdes Mares (Afiliada Globo - Ce)</h4>
+                            <span class="casa">Editor de vídeo</span>
+                            <span class="fecha">2017 - Atual</span>
+                            <p> Atuo na edição de vídeos no departamento de promoções da Verdes Mares Ce, afiliada da Rede Globo e também edito materiais para a emissora local do GEQ, Tv Diário.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+
+                        <div class="item der">
+                            <h4>TV Unifor (Universidade de Fortaleza)</h4>
+                            <span class="casa">Operador de Controle Mestre (Master)</span>
+                            <span class="fecha">2012 - Atual</span>
+                            <p> Atuo na Coordenação de programas exibidos pela Tv Unifor, bem como na programação e postagem de lives nas redes sociais fazendo funções como: Direção de imagens, Edição de vídeos, Cinegrafista entre outras atividades dentro da Fundação Edson Queiroz. </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+
+                        <div class="item der">
+                            <h4>Tv O Povo (Fundação Demócrito Rocha)</h4>
+                            <span class="casa">Operador de Caracteres</span>
+                            <span class="fecha">2011 - 2015</span>
+                            <p> Trabalhei na Fundação Demócrito Rocha operando a máquina de GC (Graphic Character) em gravações e transmissões ao vivo de programas conhecidos, como o "Trem Bala", apresentado pelo Alan Neto. Neste período, tembém desempenhei outras funções, como Direção de imagens, operação de VT e Operação de áudio.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                            
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--SEÇÃO PORTFÓLIO-->
+        <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>PORTFÓLIO DE VÍDEOS</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/790004844?h=43501f357f" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+                        <div class="overlay">
+                            <!--<h3>Promo</h3>
+                            <p>Vídeo</p>-->
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/728591668?h=1fede424ae" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+                        <div class="overlay">
+                            <!--<h3>Promo</h3>
+                            <p>Vídeo</p>-->
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/693231795?h=41ae35b99e" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+                        <div class="overlay">
+                            <!--<h3>Promo</h3>
+                            <p>Vídeo</p>-->
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                            <iframe title="vimeo-player" src="https://player.vimeo.com/video/811483429?h=91a440f8f9" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+                            <div class="overlay">
+                                <!--<h3>Promo</h3>
+                                <p>Vídeo</p>-->
+                            </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/693232941?h=3a7c8b519a" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+                        <div class="overlay">
+                            <!--<h3>Promo</h3>
+                            <p>Vídeo</p>-->
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/501002890?h=99eaf49d8c" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+                        <div class="overlay">
+                            <!--<h3>Promo</h3>
+                            <p>Vídeo</p>-->
+                        </div>
+                    </div>
+
+                   
+
+                    <h2>PORTFÓLIO DE ARTES</h2>
+
+                <div class="galeria2">
+
+
+                    <div class="proyecto2">
+                        <img src="../marcelo-site/imagens/redes sociais/img1.png" alt="">
+                        <div class="overlay">
+                            <h3>Artes Redes Sociais</h3>
+                            <p>Feed</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="proyecto2">
+                        <img src="../marcelo-site/imagens/redes sociais/img2.png" alt="">
+                        <div class="overlay">
+                            <h3>Artes Redes Sociais</h3>
+                            <p>Feed</p>
+                        </div>
+                    </div>
+
+
+                    <div class="proyecto2">
+                        <img src="../marcelo-site/imagens/redes sociais/img3.png" alt="">
+                        <div class="overlay">
+                            <h3>Artes Redes Sociais</h3>
+                            <p>Feed</p>
+                        </div>
+                    </div>
+
+
+                    <div class="proyecto2">
+                        <img src="../marcelo-site/imagens/redes sociais/img4.png" alt="">
+                        <div class="overlay">
+                            <h3>Artes Redes Sociais</h3>
+                            <p>Feed</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto2">
+                        <img src="../marcelo-site/imagens/redes sociais/img5.png" alt="">
+                        <div class="overlay">
+                            <h3>Artes Redes Sociais</h3>
+                            <p>Feed</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto2">
+                        <img src="../marcelo-site/imagens/redes sociais/img6.png" alt="">
+                        <div class="overlay">
+                            <h3>Artes Redes Sociais</h3>
+                            <p>Feed</p>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+
+
+        </section>
+         <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/marcelo.g.costa.5/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/marcelogomesdc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://vimeo.com/user104339207" target="_blank"><i class="fa-brands fa-vimeo-v"></i></a>
+            <a href="https://www.linkedin.com/in/marcelo-gomes-da-costa-85b387237/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer> 
+    <script src="script.js"></script>
+</body>
+</html>
